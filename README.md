@@ -15,6 +15,8 @@ Claude: Used youtube-title-generator and youtube-description-generator.
         Scheduled on PostOnce for Thu 15:00 on "Acme Studio", privacy public.
 ```
 
+Full setup guide with examples: [postonce.to/mcp/youtube](https://postonce.to/mcp/youtube)
+
 ## What you can do
 
 | Ask your agent to | How it works |
