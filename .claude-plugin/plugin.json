@@ -1,0 +1,19 @@
+{
+  "name": "youtube-mcp",
+  "version": "0.1.0",
+  "description": "YouTube MCP server and skills: upload, publish and schedule YouTube videos and Shorts with titles, descriptions and privacy settings through YouTube's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "homepage": "https://github.com/postoncehq/youtube-mcp",
+  "repository": "https://github.com/postoncehq/youtube-mcp",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "youtube-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
+}

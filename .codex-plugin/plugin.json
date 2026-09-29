@@ -1,0 +1,23 @@
+{
+  "name": "youtube-mcp",
+  "version": "0.1.0",
+  "description": "YouTube MCP server and skills: upload, publish and schedule YouTube videos and Shorts with titles, descriptions and privacy settings through YouTube's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/youtube-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "YouTube MCP",
+    "shortDescription": "Upload, publish and schedule YouTube videos and Shorts.",
+    "longDescription": "Skills for YouTube titles, descriptions, tags, scripts, Shorts, thumbnails and content calendars, plus uploading and scheduling videos to your YouTube channel. Publishing goes through YouTube's official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Write a title and description for this video and schedule it on my YouTube channel for Thursday at 3pm."
+  }
+}
