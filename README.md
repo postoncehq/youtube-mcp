@@ -31,11 +31,12 @@ Full setup guide with examples: [postonce.to/mcp/youtube](https://postonce.to/mc
 | Save a draft to finish later | `create_draft` |
 | Check whether a video went out, and get its URL | `get_post` |
 | Change or cancel a scheduled video | `update_post`, `cancel_post` |
+| See views, likes, comments, shares and saves for your posts | `get_analytics`, `get_post_analytics` |
 | Post the same video to YouTube and other platforms | Add more targets to `create_post` (TikTok, Instagram, Facebook, LinkedIn, X, Threads, Pinterest, Bluesky) |
 
 Every YouTube post needs one video, up to 768 MB. Uploads through `create_upload_url` accept MP4, MOV and WebM.
 
-Not supported: community posts, text-only or image posts, playlists, marking videos as made for kids (uploads are always marked not made for kids), setting a custom thumbnail (upload it in YouTube Studio), analytics, reading or replying to comments, and editing or deleting videos after they're published.
+Not supported: community posts, text-only or image posts, playlists, marking videos as made for kids (uploads are always marked not made for kids), setting a custom thumbnail (upload it in YouTube Studio), reading or replying to comments, and editing or deleting videos after they're published.
 
 ## Setup (about a minute)
 
@@ -82,13 +83,13 @@ Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Co
 ## FAQ
 
 **Does YouTube have an official MCP server?**
-This server uses YouTube's official API (the YouTube Data API) through PostOnce. It uploads videos to your channel with the title, description, privacy and category you choose.
+Not from Google, as of November 2026. YouTube MCP servers are third-party, and most read data such as transcripts and comments. This one uses YouTube's official API (the YouTube Data API) through PostOnce. It uploads videos to your channel with the title, description, privacy and category you choose.
 
 **Can Claude upload videos to YouTube?**
 Yes, once it's connected to an MCP server that can publish, like this one. Claude writes the title and description, uploads the video with `create_upload_url`, then calls `create_post`.
 
 **Is it safe for my YouTube channel?**
-Yes. Uploads go through YouTube's official API with the permissions you grant when you connect your channel. Many YouTube MCP servers on GitHub drive a logged-in browser or rely on unofficial or scraped endpoints instead, which YouTube's Terms of Service don't allow and which can get channels restricted.
+Yes. Uploads go through YouTube's official posting API with the permissions you grant when you connect your channel. There's no scraping and no browser session, and you can revoke access any time.
 
 **Do I need a Google Cloud project or YouTube API key?**
 No. PostOnce holds the YouTube API access; you just connect your channel.
