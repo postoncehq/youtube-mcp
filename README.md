@@ -4,7 +4,7 @@
 
 YouTube MCP server for Claude, ChatGPT, Cursor and Codex. Your AI agent can upload, publish and schedule YouTube videos and Shorts on your channel, with the title, description, privacy and category set, through YouTube's official API. There's no scraping, no browser automation and no YouTube developer app to set up.
 
-It runs on [PostOnce](https://postonce.to)'s hosted MCP server and comes with YouTube skills for titles, descriptions, tags, scripts, Shorts and thumbnails, so your agent knows what a good upload looks like before it publishes one.
+It runs on [PostOnce](https://postonce.to?utm_source=github&utm_campaign=youtube-mcp)'s hosted MCP server and comes with YouTube skills for titles, descriptions, tags, scripts, Shorts and thumbnails, so your agent knows what a good upload looks like before it publishes one.
 
 ```
 You:    Here's the transcript of Thursday's video. Write the title and
@@ -15,7 +15,7 @@ Claude: Used youtube-title-generator and youtube-description-generator.
         Scheduled on PostOnce for Thu 15:00 on "Acme Studio", privacy public.
 ```
 
-Full setup guide with examples: [postonce.to/mcp/youtube](https://postonce.to/mcp/youtube)
+Full setup guide with examples: [postonce.to/mcp/youtube](https://postonce.to/mcp/youtube?utm_source=github&utm_campaign=youtube-mcp)
 
 ## What you can do
 
@@ -40,7 +40,7 @@ Not supported: community posts, text-only or image posts, playlists, marking vid
 
 ## Setup (about a minute)
 
-You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) with your YouTube channel connected.
+You need a [PostOnce account](https://postonce.to?utm_source=github&utm_campaign=youtube-mcp) (free for 7 days, no card) with your YouTube channel connected.
 
 **Claude (claude.ai and desktop) and ChatGPT:** add a custom connector with the URL below and sign in with PostOnce. No API key.
 
@@ -48,7 +48,7 @@ You need a [PostOnce account](https://postonce.to) (free for 7 days, no card) wi
 https://postonce.to/mcp
 ```
 
-Step-by-step: [Claude](https://postonce.to/integrations/claude) · [ChatGPT](https://postonce.to/integrations/chatgpt)
+Step-by-step: [Claude](https://postonce.to/integrations/claude?utm_source=github&utm_campaign=youtube-mcp) · [ChatGPT](https://postonce.to/integrations/chatgpt?utm_source=github&utm_campaign=youtube-mcp)
 
 **Claude Code:** install the plugin. It adds the MCP connection and the skills together, and the first time it connects your browser opens to sign in with PostOnce. No API key.
 
@@ -62,7 +62,7 @@ claude plugin marketplace add postoncehq/plugins
 claude plugin install youtube-mcp@postoncehq
 ```
 
-Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code) · [Codex](https://postonce.to/integrations/codex) · [Cursor](https://postonce.to/integrations/cursor)
+Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=youtube-mcp) · [Codex](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=youtube-mcp) · [Cursor](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=youtube-mcp)
 
 **Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences) and need a paid plan).
 
@@ -101,7 +101,7 @@ Yes. Upload a vertical video of up to 3 minutes and it's treated as a Short. You
 No. The `youtube-thumbnail-maker` skill designs and renders the image, and you upload it in YouTube Studio after the video is up.
 
 **Is it free?**
-The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing).
+The skills and this repo are free and MIT-licensed. Publishing runs through a PostOnce account, which you can try free for 7 days without entering a card. After that, see [pricing](https://postonce.to/pricing?utm_source=github&utm_campaign=youtube-mcp).
 
 ## Data and privacy
 
