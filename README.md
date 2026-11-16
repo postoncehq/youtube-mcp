@@ -6,6 +6,10 @@ YouTube MCP server for Claude, ChatGPT, Cursor and Codex. Your AI agent can uplo
 
 It runs on [PostOnce](https://postonce.to?utm_source=github&utm_campaign=youtube-mcp)'s hosted MCP server and comes with YouTube skills for titles, descriptions, tags, scripts, Shorts and thumbnails, so your agent knows what a good upload looks like before it publishes one.
 
+**[Start free for 7 days, no card →](https://postonce.to?utm_source=github&utm_campaign=youtube-mcp)** · Used by 3,500+ users
+
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logoColor=white&logo=claude)](https://postonce.to/integrations/claude?utm_source=github&utm_campaign=youtube-mcp) [![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/chatgpt?utm_source=github&utm_campaign=youtube-mcp) [![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logoColor=white&logo=claude)](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=youtube-mcp) [![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=youtube-mcp) [![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logoColor=white&logo=cursor)](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=youtube-mcp) [![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-8E75B2?style=for-the-badge&logoColor=white&logo=googlegemini)](https://github.com/postoncehq/postonce-gemini-extension) [![Grok](https://img.shields.io/badge/Grok-000000?style=for-the-badge&logoColor=white&logo=x)](https://postonce.to/integrations/grok?utm_source=github&utm_campaign=youtube-mcp) [![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logoColor=white&logo=n8n)](https://postonce.to/integrations/n8n?utm_source=github&utm_campaign=youtube-mcp) [![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logoColor=white&logo=make)](https://postonce.to/integrations/make?utm_source=github&utm_campaign=youtube-mcp) [![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logoColor=white&logo=zapier)](https://postonce.to/integrations/zapier?utm_source=github&utm_campaign=youtube-mcp) [![Any MCP client](https://img.shields.io/badge/Any_MCP_client-1D4ED8?style=for-the-badge&logoColor=white)](https://postonce.to/integrations/mcp?utm_source=github&utm_campaign=youtube-mcp)
+
 ```
 You:    Here's the transcript of Thursday's video. Write the title and
         description with chapters, and schedule it for Thursday 3pm as public.
@@ -16,6 +20,15 @@ Claude: Used youtube-title-generator and youtube-description-generator.
 ```
 
 Full setup guide with examples: [postonce.to/mcp/youtube](https://postonce.to/mcp/youtube?utm_source=github&utm_campaign=youtube-mcp)
+
+## What hosted PostOnce handles for you
+
+| | |
+| --- | --- |
+| Approved platform apps | No developer app or platform review on your side. Connect your accounts and post. |
+| Official APIs | Every post goes through each platform's official API. No scraping, no browser automation. |
+| Retries | Temporary platform errors retry on their own, without posting twice. |
+| Status per platform | Each post shows its status and live link on every platform. |
 
 ## What you can do
 
@@ -64,7 +77,7 @@ claude plugin install youtube-mcp@postoncehq
 
 Step-by-step: [Claude Code](https://postonce.to/integrations/claude-code?utm_source=github&utm_campaign=youtube-mcp) · [Codex](https://postonce.to/integrations/codex?utm_source=github&utm_campaign=youtube-mcp) · [Cursor](https://postonce.to/integrations/cursor?utm_source=github&utm_campaign=youtube-mcp)
 
-**Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences) and need a paid plan).
+**Any other MCP client:** point it at `https://postonce.to/mcp` (Streamable HTTP) and sign in with PostOnce when it asks. Clients without OAuth can send the header `Authorization: Bearer <your PostOnce API key>` instead (API keys are in [PostOnce preferences](https://postonce.to/dashboard/preferences?utm_source=github&utm_campaign=youtube-mcp) and need a paid plan).
 
 ## Skills included
 
@@ -107,10 +120,10 @@ The skills and this repo are free and MIT-licensed. Publishing runs through a Po
 
 - The posts, captions and media you ask your agent to publish are sent to PostOnce and on to the platforms you choose. Nothing is published without a request from you.
 - Media files you upload go straight to PostOnce's file storage through a short-lived signed upload link, then publish from there. Uploaded media is publicly reachable so the platforms can fetch it.
-- PostOnce stores your posts, media and connected account names so it can schedule them and show your publishing history. You can disconnect accounts and revoke access at any time in [PostOnce preferences](https://postonce.to/dashboard/preferences).
+- PostOnce stores your posts, media and connected account names so it can schedule them and show your publishing history. You can disconnect accounts and revoke access at any time in [PostOnce preferences](https://postonce.to/dashboard/preferences?utm_source=github&utm_campaign=youtube-mcp).
 - The skills themselves run in your agent and send nothing anywhere else.
 
-Full details: [privacy policy](https://postonce.to/privacy-policy) · [terms](https://postonce.to/tos).
+Full details: [privacy policy](https://postonce.to/privacy-policy?utm_source=github&utm_campaign=youtube-mcp) · [terms](https://postonce.to/tos?utm_source=github&utm_campaign=youtube-mcp).
 
 ## Other platforms
 
